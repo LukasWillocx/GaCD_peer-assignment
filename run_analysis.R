@@ -75,4 +75,4 @@ tidy_data_summary<-tidy_data %>%
 
 
 write.table(tidy_data,'tidy_data.txt')
-write.table(tidy_data_summary,'tidy_data_summary.txt')
+write.table(tidy_data_summary,'tidy_data_summary.txt',row.names = F)
